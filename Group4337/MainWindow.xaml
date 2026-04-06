@@ -65,6 +65,10 @@
                         Click="ImportData_Click"/>
                 <Button Content="Экспорт в Excel" x:Name="ExportData" Click="ExportData_Click"
                         Grid.Row="19" Width="100" HorizontalAlignment="Right"/>
+                <Button x:Name="ImportJSON" Click="ImportJSON_Click" Grid.Row="19" Width="100"
+                        Margin="0 0 350 0" Content="Импорт JSON"/>
+                <Button x:Name="ExportWord" Click="ExportWord_Click" Grid.Row="19"
+                        Width="100" Content="Экспорт в Word" Margin="350 0 0 0"/>
                 <!---->
 
             </Grid>
